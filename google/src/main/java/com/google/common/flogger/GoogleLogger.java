@@ -18,7 +18,7 @@ package com.google.common.flogger;
 
 import static com.google.common.flogger.util.Checks.checkArgument;
 
-import com.google.common.floggeer.backend.LoggerBackend;
+import com.google.common.flogger.backend.LoggerBackend;
 import com.google.common.flogger.backend.Platform;
 import com.google.errorprone.annotations.CheckReturnValue;
 import java.util.logging.Level;
@@ -26,6 +26,7 @@ import java.util.logging.Level;
 /**
  * The default Google specific implementation of {@link AbstractLogger} which extends the core
  * {@link LoggingApi} to add Google specific functionality.
+ * 
  */
 @CheckReturnValue
 public final class GoogleLogger extends AbstractLogger<GoogleLogger.Api> {
