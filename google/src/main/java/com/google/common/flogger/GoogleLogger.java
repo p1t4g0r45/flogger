@@ -26,6 +26,7 @@ import java.util.logging.Level;
 /**
  * The default Google specific implementation of {@link AbstractLogger} which extends the core
  * {@link LoggingApi} to add Google specific functionality.
+ * 
  */
 @CheckReturnValue
 public final class GoogleLogger extends AbstractLogger<GoogleLogger.Api> {
